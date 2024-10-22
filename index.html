@@ -15,9 +15,43 @@
             margin:20px auto;
             display:block;
         }
+
+        .mobile-img{
+          height:60px;
+          width: 60px;
+          border:1px solid #000000;
+          border: 5px;
+          margin:10px;
+          cursor: pointer;
+          object-fit: cover;
+        }
+
+        #mobile-image-conteiner{
+            display: flex;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
-    <img src="./img/img1.jpg" id="main-img"/>
+    <img src="./img/mo.1.jpg" id="main-img"/>
+
+    <div id="mobile-image-conteiner">
+
+        <img src="./img/mo.1.jpg" class="mobile-img"/>
+
+        <img src="./img/mo.2.jpg" class="mobile-img"/>
+
+        <img src="./img/mo.3.jpg" class="mobile-img"/>
+
+        <img src="./img/mo.4.jpg" class="mobile-img"/>
+
+        <img src="./img/mo.5.jpg" class="mobile-img"/>
+
+    </div>
+    <script>
+        function imgPreview{
+            
+        }
+    </script>
 </body>
 </html>
